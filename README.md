@@ -1,3 +1,6 @@
+# NAME:FRANKLIN.F
+# REF.NO:24900641
+
 ### SYNCHRONOUS-UP-COUNTER
 
 **AIM:**
@@ -30,17 +33,24 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 /* write all the steps invloved */
 
-**PROGRAM**
+# PROGRAM
+ 
+![WhatsApp Image 2024-12-20 at 22 58 39_abd0abd2](https://github.com/user-attachments/assets/56ceb8d3-b3e8-414f-b42d-26b9ed3a65df)
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
 Developed by: RegisterNumber:
 */
 
-**RTL LOGIC UP COUNTER**
+# RTL LOGIC UP COUNTER
+![WhatsApp Image 2024-12-20 at 22 58 32_b757158a](https://github.com/user-attachments/assets/491e6175-bfe2-4965-a294-6c4775527761)
 
-**TIMING DIAGRAM FOR IP COUNTER**
 
-**TRUTH TABLE**
+# TIMING DIAGRAM FOR IP COUNTER
+![WhatsApp Image 2024-12-20 at 22 57 21_aa337027](https://github.com/user-attachments/assets/361acf96-1230-4a30-bdea-57f158a41023)
 
-**RESULTS**
+# TRUTH TABLE
+![WhatsApp Image 2024-12-20 at 22 58 06_7c82311d](https://github.com/user-attachments/assets/901ecd1f-5f7a-4cc6-88cc-5c6988a7bae9)
+
+
+# RESULTS
+Thus,implemented 4 bit synchronous up counter and validate functionality.
