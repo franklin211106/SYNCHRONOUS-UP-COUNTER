@@ -43,7 +43,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 ![WhatsApp Image 2024-12-20 at 22 58 32_b757158a](https://github.com/user-attachments/assets/491e6175-bfe2-4965-a294-6c4775527761)
 
 
-# TIMING DIAGRAM FOR IP COUNTER
+# output waveform
 ![WhatsApp Image 2024-12-20 at 22 57 21_aa337027](https://github.com/user-attachments/assets/361acf96-1230-4a30-bdea-57f158a41023)
 
 # TRUTH TABLE
