@@ -1,19 +1,19 @@
-# NAME:FRANKLIN.F
-# REF.NO:24900641
+## NAME:FRANKLIN.F
+## REF.NO:24900641
 
-### SYNCHRONOUS-UP-COUNTER
+# SYNCHRONOUS-UP-COUNTER
 
-**AIM:**
+# AIM:
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-**SOFTWARE REQUIRED:**
+# SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+# THEORY
 
-**4 bit synchronous UP Counter**
+# 4 bit synchronous UP Counter
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
@@ -29,17 +29,15 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+# Procedure
 
-/* write all the steps invloved */
+1.Launch Quartus on your computer and create a new project: Go to File → New Project Wizard. Specify the project name, directory, and top-level entity name. Create the synchronous up counter and implement the synchronous up counter by writing VHDL/Verilog code. Go to File → New → Select Verilog File. Compile the Project Click on Processing → Start Compilation. Fix any syntax or schematic errors if present. Simulate the Circuit: Go to Tools → University Program VWF. Define the inputs for CLK,out,rstn in the waveform editor. Run the simulation and observe the waveforms.
 
 # PROGRAM
  
 ![WhatsApp Image 2024-12-20 at 22 58 39_abd0abd2](https://github.com/user-attachments/assets/56ceb8d3-b3e8-414f-b42d-26b9ed3a65df)
 
 
-Developed by: RegisterNumber:
-*/
 
 # RTL LOGIC UP COUNTER
 ![WhatsApp Image 2024-12-20 at 22 58 32_b757158a](https://github.com/user-attachments/assets/491e6175-bfe2-4965-a294-6c4775527761)
